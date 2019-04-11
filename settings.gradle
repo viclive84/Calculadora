@@ -3,4 +3,4 @@ pluginManagement {
 		gradlePluginPortal()
 	}
 }
-rootProject.name = 'calculadora'
+rootProject.name = 'calculadora2'
