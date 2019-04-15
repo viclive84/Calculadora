@@ -6,11 +6,6 @@ pipeline {
                 sh "./gradlew compileJava"
             }
         }
-        stage("test") {
-            steps {
-                sh "./gradlew test"
-            }
-        } 
         stage("docker construir") {
             steps {
                 sh "docker build -t localhost:5000/calculadora ."
